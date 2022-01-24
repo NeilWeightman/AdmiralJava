@@ -3,8 +3,9 @@ package com.sparta.basics;
 import java.util.Objects;
 
 public class Customer {
-    private String firstName;
-    private String lastName;
+    private String firstName; // default null
+    private String lastName; // default null
+    // for primitive types, the default is 0 (integer types), 0.0 (floating point), false, '\0'
 
     public String getEmail() {
         return email;
@@ -14,11 +15,14 @@ public class Customer {
         this.email = email;
     }
 
-    private String email;
+    private String email; // default null
 
     public Customer(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
+    }
+
+    public Customer() {
     }
 
     @Override

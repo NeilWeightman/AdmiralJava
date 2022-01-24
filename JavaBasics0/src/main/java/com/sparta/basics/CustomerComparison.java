@@ -9,5 +9,7 @@ public class CustomerComparison {
 //        if(c1 == c2) // compare object references
         if(c1.equals(c2))
             System.out.println("These are the same customer");
+        Customer c3 = new Customer();
+        System.out.println(c3.getFirstName());
     }
 }
