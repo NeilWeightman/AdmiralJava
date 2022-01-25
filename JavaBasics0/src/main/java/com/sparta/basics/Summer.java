@@ -6,8 +6,10 @@ public class Summer {
         Summer summer = new Summer();
         System.out.println(summer.sumArray(myInts));
     }
-    public int sumArray(int[] theInts){
-        // complete this method
-        return 0;
+    public int sumArray(int[] bert){
+        int result = 0;
+        for(int nextValue: bert)
+            result += nextValue;
+        return result;
     }
 }

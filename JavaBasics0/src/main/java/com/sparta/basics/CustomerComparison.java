@@ -1,5 +1,7 @@
 package com.sparta.basics;
 
+import java.util.ArrayList;
+
 public class CustomerComparison {
     public static void main(String[] args) {
         Customer c1 = new Customer("Roberto", "Lovece");
@@ -11,5 +13,7 @@ public class CustomerComparison {
             System.out.println("These are the same customer");
         Customer c3 = new Customer();
         System.out.println(c3.getFirstName());
+        c1.setFirstName("Bill");
+       ArrayList l = new ArrayList();
     }
 }

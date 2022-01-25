@@ -5,6 +5,16 @@ import java.util.Objects;
 public class Customer {
     private String firstName; // default null
     private String lastName; // default null
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    private int age; // default 0
     // for primitive types, the default is 0 (integer types), 0.0 (floating point), false, '\0'
 
     public String getEmail() {
