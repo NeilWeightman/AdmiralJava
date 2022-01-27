@@ -1,17 +1,22 @@
 package com.sparta.oop;
 
-public class Customer {
-    // ALL instance variables should be private, never public **possibly** protected
-    // default or package access - avoid using this
-    private String firstName = "dummy"; // default null unless assigned like this
-    private String lastName; // default null
+public class Customer extends Person implements Comparable<Customer>{
     private int customerId; // default zero
+
+    public String getDeliveryAddress() {
+        return deliveryAddress;
+    }
+
+    public void setDeliveryAddress(String deliveryAddress) {
+        this.deliveryAddress = deliveryAddress;
+    }
+
+    private String deliveryAddress;
 
     // methods should generally be public, but protected or private are fine
 
     public Customer(String firstName, String lastName, int customerId) {
-        this.firstName = firstName;
-        this.lastName = lastName;
+        super(firstName, lastName);
         this.customerId = customerId;
     }
     // DRY don't repeat yourself
@@ -23,29 +28,22 @@ public class Customer {
         this("no-name", "no-name", -1);
     }
 
+    @Override
+    public final void delete() {
+        System.out.println("This customer has closed their account");
+    }
+
     public String toString(){
         return "Customer #" + this.customerId + " : "
-                + firstName + " " + lastName;
-    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+                + getFirstName() + " " + getLastName();
     }
 
     public int getCustomerId() {
         return customerId;
+    }
+
+    public int compareTo(Customer other){
+        return getLastName().compareTo(other.getLastName());
     }
 
 }
