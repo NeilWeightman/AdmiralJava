@@ -25,7 +25,14 @@ public class RetailStore {
 
         Customer sami = new Customer();
         sami.setFirstName("Sami");
+        try {
+            sami.setDeliveryAddress(null);
+        } catch(IllegalArgumentException e){
+            System.err.println(e);
+        }
+        sami.setFirstName("Sami2");
         System.out.println(sami);
+        System.out.println(sami.getDeliveryAddress());
         sami.delete();
 
         Employee e = new Employee("Brandon", "Johnson");

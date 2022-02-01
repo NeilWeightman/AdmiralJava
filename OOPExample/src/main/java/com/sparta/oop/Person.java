@@ -3,13 +3,14 @@ package com.sparta.oop;
 public abstract class Person {
     // ALL instance variables should be private, never public **possibly** protected
     // default or package access - avoid using this
-    private String firstName = "dummy"; // default null unless assigned like this
+    private String fn = "dummy"; // default null unless assigned like this
     private String lastName; // default null
 
     public Person(String firstName, String lastName) {
-        this.firstName = firstName;
+        this.fn = firstName;
         this.lastName = lastName;
     }
+
 
     public Person() {
 
@@ -17,11 +18,11 @@ public abstract class Person {
     public abstract void delete(); // no implementation for this abstract method
 
     public String getFirstName() {
-        return firstName;
+        return fn;
     }
 
     public void setFirstName(String firstName) {
-        this.firstName = firstName;
+        fn = firstName;
     }
 
     public String getLastName() {
@@ -32,10 +33,15 @@ public abstract class Person {
         this.lastName = lastName;
     }
 
+    public String getFullName(){
+        return fn + " " + lastName;
+    }
+
+
     @Override
     public String toString() {
         return "Person{" +
-                "firstName='" + firstName + '\'' +
+                "firstName='" + fn + '\'' +
                 ", lastName='" + lastName + '\'' +
                 '}';
     }

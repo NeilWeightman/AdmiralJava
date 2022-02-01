@@ -1,6 +1,8 @@
 package com.sparta.oop;
 
-public class Customer extends Person implements Comparable<Customer>{
+import java.io.Serializable;
+
+public class Customer extends Person implements Comparable<Customer>, Serializable {
     private int customerId; // default zero
 
     public String getDeliveryAddress() {
@@ -8,6 +10,8 @@ public class Customer extends Person implements Comparable<Customer>{
     }
 
     public void setDeliveryAddress(String deliveryAddress) {
+        if(deliveryAddress == null)
+            throw new IllegalArgumentException("deliveryAddress can't be null");
         this.deliveryAddress = deliveryAddress;
     }
 
