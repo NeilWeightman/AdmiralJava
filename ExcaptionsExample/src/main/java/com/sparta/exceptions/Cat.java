@@ -11,6 +11,7 @@ public class Cat {
         try {
             name = name.toUpperCase();
         } catch(NullPointerException e) {
+            CatDriver.logger.warn("Problem!");
             throw new CatException("Cat exception occurred!", e);
         } finally {
             if(name == null)

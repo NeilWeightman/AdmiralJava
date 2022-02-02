@@ -4,7 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class CatDriver {
-    private static Logger logger = LogManager.getLogger("Cat Logger");
+    public static Logger logger = LogManager.getLogger("Logger");
 
     public static void main(String[] args){
 
