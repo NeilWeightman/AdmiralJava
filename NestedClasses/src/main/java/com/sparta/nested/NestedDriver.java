@@ -1,28 +1,24 @@
 package com.sparta.nested;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class NestedDriver {
     public static void main(String[] args) {
-        List<String> l = new ArrayList<>(List.of("Brandon Johnson", "Aiden Sykes", "Donovan Cupueran",
+        Set<String> s = new HashSet<>(List.of("Brandon Johnson", "Aiden Sykes", "Donovan Cupueran",
                 "Alvaro Gonzalez", "Andrew Murray",
                 "Conor Porteous", "Antony Ademefun", "Autumn Peles", "Ben Wong",
-                "Dale Bernardo"));
-        System.out.println(l);
-        MySorter<Comparable> theComparableSorter = new MySorter<>();
-        theComparableSorter.sort(l);
-        System.out.println(l);
+                "Dale Bernardo", "Autumn Peles"));
+        for (String name: s){
+            System.out.println(name);
+        }
+        System.out.println(s);
 
-        List<Customer> custList = new ArrayList<>(List.of(new Customer("Brandon", "Johnson"),
-                new Customer("Aiden", "Sykes"), new Customer("Donovan", "Cupueran"),
-                new Customer("Alvaro", "Gonzalez"), new Customer("Andrew", "Murray"),
-                new Customer("Conor", "Porteous"), new Customer("Antony", "Ademefun"),
-                new Customer("Autumn", "Peles"), new Customer("Ben", "Wong"),
-                new Customer("Dale", "Bernardo")));
-        System.out.println(custList);
-        MySorter<Customer> theCustomerSorter = new MySorter<>();
-        theCustomerSorter.sortCustomers(custList);
-        System.out.println(custList);
+        Map<String, Customer> customerMap = new HashMap<>();
+        customerMap.put("Dale", new Customer("Dale", "Bernardo"));
+        System.out.println(customerMap);
+        customerMap.put("Andrew", new Customer("Andrew", "Murray"));
+        for (Customer customer: customerMap.values())
+            System.out.println(customer);
+        System.out.println(customerMap);
     }
 }
