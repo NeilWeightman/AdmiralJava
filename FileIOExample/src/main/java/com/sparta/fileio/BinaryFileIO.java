@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class BinaryFileIO {
+public class BinaryFileIO extends TextFileIO {
     public static void readBinary(String inFile){
         FileInputStream fis = null;
         try {
