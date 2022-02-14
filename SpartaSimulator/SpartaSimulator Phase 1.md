@@ -1,12 +1,12 @@
 # Sparta Trainees Simulator
 
-##Due
+## Due
 This project will be submitted to Neil Weightman, by email or on Teams, as a GitHub link on Monday 2022-02-21. In addition, a brief (10 mins max) presentation on the outcome of the project will be made on Friday 2022-02-18 at 16:00 (subject to no other academy presentations being scheduled to conflict with this).
 
-##Overview
+## Overview
 You have been asked to build a simulator which will help track the number of people currently training
 
-##Stage 1 requirements:
+## Stage 1 requirements:
 - The tracker needs to be able to track time in a consistent way
 - The program starts by asking how long the simulation will run for
 - Every month, a random number of trainees are generated wanting to be trained (50 - 100)
@@ -20,14 +20,14 @@ You have been asked to build a simulator which will help track the number of peo
 	- number of trainees currently training
 	- number of trainees on the waiting list
 
-##Stage 2 requirements:
+## Stage 2 requirements:
 These will be made available on 2022-02-15 at 09:30.
 
-##Stage 3 requirements:
+## Stage 3 requirements:
 These will be made available on 2022-02-16 at 09:30.
 
-##Groups
-###The Pure Rangers
+## Groups
+### The Pure Rangers
 - Mihai Udrea
 - Gideon Troy
 - Donovan Cupueran
@@ -35,7 +35,7 @@ These will be made available on 2022-02-16 at 09:30.
 - Andrew Murray
 - Jack Gilbride
 
-###The Determined Wolves
+### The Determined Wolves
 - Hassan Said
 - Piotr Sulek
 - Roberto Lovece
@@ -43,7 +43,7 @@ These will be made available on 2022-02-16 at 09:30.
 - Conor Porteous
 - Suyash Srivastava
 
-###The Hungry Blazers
+### The Hungry Blazers
 - Harry Lewis
 - Brandon Johnson
 - Stephen Jones
@@ -51,7 +51,7 @@ These will be made available on 2022-02-16 at 09:30.
 - Natasha Reilly
 - Mehmet Yetim
 
-###The Strong Dragons
+### The Strong Dragons
 - Sajad Gulzar
 - Dale Bernardo
 - Antony Ademefun
