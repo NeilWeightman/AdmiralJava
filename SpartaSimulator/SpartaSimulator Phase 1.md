@@ -1,7 +1,7 @@
 # Sparta Trainees Simulator
 
 ## Due
-This project will be submitted to Neil Weightman, by email or on Teams, as a GitHub link on Monday 2022-02-21. In addition, a brief (10 mins max) presentation on the outcome of the project will be made on Friday 2022-02-18 at 16:00 (subject to no other academy presentations being scheduled to conflict with this).
+This project will be submitted to Neil Weightman, by email or on Teams, as a GitHub link on Monday 2022-02-21 at 09:00. In addition, a brief (10 mins max) presentation on the outcome of the project will be made on Friday 2022-02-18 at 16:00 (subject to no other academy presentations being scheduled to conflict with this).
 
 ## Overview
 You have been asked to build a simulator which will help track the number of people currently training
