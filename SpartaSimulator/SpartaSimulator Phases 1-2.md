@@ -39,7 +39,7 @@ You have been asked to build a simulator which will help track the number of peo
 These will be made available on 2022-02-16 at 09:30.
 
 ## Groups
-### The Pure Rangers (Autonomous Collective)
+### The Pure Rangers ([Autonomous Collective](https://www.youtube.com/watch?v=ACvXR0sQDkM))
 - Mihai Udrea
 - Gideon Troy
 - Donovan Cupueran
