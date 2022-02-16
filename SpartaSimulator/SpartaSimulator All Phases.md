@@ -76,5 +76,4 @@ You have been asked to build a simulator which will help track the number of peo
 - **Dale Bernardo (Scrum)**
 - Antony Ademefun (GitHub)
 - Autumn Peles (Lead Developer)
-- Monali Dhamale (Tests)
 - Alvaro Gonzalez (Database)
