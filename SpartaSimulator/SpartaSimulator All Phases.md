@@ -48,10 +48,10 @@ You have been asked to build a simulator which will help track the number of peo
 
 ## Groups
 ### The Pure Rangers ([Autonomous Collective](https://www.youtube.com/watch?v=ACvXR0sQDkM))
-- Mihai Udrea
+- Mihai Udrea (Data)
 - Gideon Troy
 - Donovan Cupueran
-- Sami Zirak
+- **Sami Zirak (Scrum)**
 - Andrew Murray
 - Jack Gilbride
 
@@ -73,7 +73,7 @@ You have been asked to build a simulator which will help track the number of peo
 
 ### The Strong Dragons
 - Sajad Gulzar (Trello)
-- **Dale Bernardo (Scrum)**
+- **Dale Bernardo (Scrum, Tests)**
 - Antony Ademefun (GitHub)
 - Autumn Peles (Lead Developer)
 - Alvaro Gonzalez (Database)
