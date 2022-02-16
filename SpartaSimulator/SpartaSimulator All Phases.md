@@ -36,7 +36,7 @@ You have been asked to build a simulator which will help track the number of peo
 	- number of trainees on the waiting list (breakdown for each type)
 
 ## Stage 3 requirements:
-- If a trainee has been in training for a year, they are moved to a bench state
+- If a trainee has been in training for 3 months, they are moved to a bench state
 - Clients will begin to be randomly created after 1 year of the simulation
 - A client will have a requirement when they are created e.g a need for 27 Java trainees. The requirement can be any value greater than or equal to 15
 - A client will take a random number of trainees from the bench each month (1 - full requirement) until their requirement is met
