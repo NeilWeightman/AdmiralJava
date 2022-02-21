@@ -16,6 +16,7 @@ public class Spartan {
     }
 
     public int getId() {
+//        return 0;
         return id;
     }
 
