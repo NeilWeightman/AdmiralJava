@@ -1,5 +1,8 @@
 package com.sparta.http.test;
 
+import com.sparta.http.Joke;
+import org.hamcrest.MatcherAssert;
+import org.hamcrest.Matchers;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
@@ -36,10 +39,13 @@ public class ChuckTest {
     }
 
     @Test
-//    @Timeout(2)
+    @Timeout(20)
     public void testThatValueContainsChuck() {
-        String jokeText = (String) jsonObject.get("value");
-//        Assertions.assertThrows(ArithmeticException.class, () -> System.out.println(1/0));
-        Assertions.assertTrue(jokeText.contains("Chuck Norris"));
+        Joke j = new Joke((String) jsonObject.get("id"), (String) jsonObject.get("value"));
+//        String jokeText = (String) jsonObject.get("value");
+        MatcherAssert.assertThat(j, Matchers.hasProperty("id"));
+//        MatcherAssert.assertThat(jokeText, Matchers.containsString("Chuck Norris"));
+//        Assertions.assertTrue(jokeText.contains("Chuck Norris"));
+        System.out.println(j.getClass().getDeclaredMethods()[0].getName());
     }
 }
