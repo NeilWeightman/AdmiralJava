@@ -6,6 +6,7 @@ import org.json.simple.parser.ParseException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Timeout;
 
 import java.io.IOException;
 import java.net.URI;
@@ -35,8 +36,10 @@ public class ChuckTest {
     }
 
     @Test
+//    @Timeout(2)
     public void testThatValueContainsChuck() {
         String jokeText = (String) jsonObject.get("value");
+//        Assertions.assertThrows(ArithmeticException.class, () -> System.out.println(1/0));
         Assertions.assertTrue(jokeText.contains("Chuck Norris"));
     }
 }
