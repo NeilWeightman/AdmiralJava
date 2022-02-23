@@ -45,7 +45,7 @@ This will be aimed at testers looking to use your framework. The presentation sh
  
 ## Groups
 ### Storm Hamsters
-- Natasha Reilly
+- **Natasha Reilly** Scrum
 - Brandon Johnson
 - Ben Wong
 - Autumn Peles
@@ -54,13 +54,13 @@ This will be aimed at testers looking to use your framework. The presentation sh
 ### Warthogs
 - Roberto Lovece
 - Donovan Cupueran
-- Mehmet Yetim
+- **Mehmet Yetim** Scrum
 - Suyash Srivastava
 - Stephen Jones
 - Aiden Sykes
 
 ### Magic Pythons
-- Andrew Murray
+- **Andrew Murray** Scrum
 - Dale Bernardo
 - Hassan Said
 - Jack Gilbride
@@ -70,7 +70,7 @@ This will be aimed at testers looking to use your framework. The presentation sh
 ### Steel Swans
 - Sami Zirak
 - Alvaro Gonzalez
-- Gideon Troy
+- **Gideon Troy** Scrum
 - Piotr Sulek
 - Sajad Gulzar
 - Mihai Udrea
