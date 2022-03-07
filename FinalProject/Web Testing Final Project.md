@@ -32,9 +32,9 @@ A TestRunner should also be used to run all features with tags to filter them.
 As well as a user guide, you will need to produce a test report showing all faults you have found. 
 This should be in a table with the following format:
 
-| Test ID | Bug Description | Steps to reproduce | Expected Result | Environment |
-|---------|-----------------|--------------------|-----------------|-------------|
-| 01      |Adding item to shopping cart does not increment badge number | Add any item from landing page to shopping cart by clicking add item button | Item should be added and badge number should increase | iPhone 11 emulated through Chrome WebDriver 
+| Test ID | Bug Description                                              | Steps to reproduce                                                          | Expected Result                                       | Environment                                 |
+|---------|--------------------------------------------------------------|-----------------------------------------------------------------------------|-------------------------------------------------------|---------------------------------------------|
+| 01      | Adding item to shopping cart does not increment badge number | Add any item from landing page to shopping cart by clicking add item button | Item should be added and badge number should increase | iPhone 11 emulated through Chrome WebDriver |
 ## Artifacts 
 - Kanban Board.
 - README file explaining how to use the framework to perform tests.
