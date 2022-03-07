@@ -59,8 +59,8 @@ The aim will be to demonstrate how it works. This will be aimed at testers looki
 - Ben Wong
 - Alvaro Gonzalez
 - Mehmet Yetim (GitHub)
-- Jack Gilbride
-- Brandon Johnson 
+- Jack Gilbride (Lead Developer)
+- Brandon Johnson (BDD)
 - Andrew Murray 
 - Harry Lewis (Scrum)
 - Conor Porteous
