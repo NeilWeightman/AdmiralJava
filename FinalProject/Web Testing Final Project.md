@@ -58,22 +58,22 @@ The aim will be to demonstrate how it works. This will be aimed at testers looki
 - Sajad Gulzar
 - Ben Wong
 - Alvaro Gonzalez
-- Mehmet Yetim
+- Mehmet Yetim (GitHub)
 - Jack Gilbride
 - Brandon Johnson 
 - Andrew Murray 
-- Harry Lewis
+- Harry Lewis (Scrum)
 - Conor Porteous
 
 ### Careful Chameleons
 - Aiden Sykes
 - Antony Ademefun
-- Dale Bernardo
+- Dale Bernardo (Scrum)
 - Donovan Cupueran
-- Gideon Troy
+- Gideon Troy (Presentation)
 - Mihai Udrea
 - Piotr Sulek
-- Roberto Lovece
-- Sami Zirak
-- Suyash Srivastava
-- Autumn Peles
+- Roberto Lovece (Lead Developer)
+- Sami Zirak (GitHub)
+- Suyash Srivastava (BDD)
+- Autumn Peles (Lead Developer)
