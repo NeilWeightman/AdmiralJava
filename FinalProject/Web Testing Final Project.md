@@ -73,7 +73,7 @@ The aim will be to demonstrate how it works. This will be aimed at testers looki
 - Gideon Troy (Presentation)
 - Mihai Udrea
 - Piotr Sulek
-- Roberto Lovece (Lead Developer)
+- Roberto Lovece (Co-Lead Developer)
 - Sami Zirak (GitHub)
 - Suyash Srivastava (BDD)
-- Autumn Peles (Lead Developer)
+- Autumn Peles (Co-Lead Developer)
